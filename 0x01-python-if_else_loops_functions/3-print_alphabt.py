@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # prints the ASCII alphabet, in lowercase
 
-for j in range(97, 123):
-    if j != 101 and j != 113:
-        print("{}".format(chr(j)), end="")
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{}".format(chr(i)), end="")

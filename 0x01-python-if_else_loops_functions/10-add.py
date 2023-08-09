@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def add(a,b):
+# adds two integers
+def add(a, b):
     return(a + b)

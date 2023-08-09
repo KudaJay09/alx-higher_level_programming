@@ -1,4 +1,6 @@
-#!/usr/bin/pyton3
+#!/usr/bin/python3
+# prints in uppercase
+
 def uppercase(str):
     for c in str:
         if ord(c) >= 97 and ord(c) <= 122:

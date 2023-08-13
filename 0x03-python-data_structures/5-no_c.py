@@ -2,6 +2,6 @@
 # removes all characters c and C from a string.
 
 def no_c(my_string):
-    copy = x [x for x in my_string if xx != 'c' and x != 'C']
+    new_string = my_string.translate({ord(i): Non for i in 'cC'})
 
-    return ("".join(copy))
+    return new_string

@@ -1,4 +1,6 @@
-##This repository contains directories for the following:
+## This repository contaiins directories for the following:
 
-* 0x00-python-hello_world
+* 0x00. Python - Hello, World
+* 0x02. Python - import & modules
+* 0x03. Python - Data Structures: Lists, Tuples
 

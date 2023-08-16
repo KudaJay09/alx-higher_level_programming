@@ -2,10 +2,9 @@
 # adds all unique integers in a list
 
 def uniq_add(my_list=[]):
-    unuiq_list = set(my_list)
-    num = 0
+    number = 0
 
-    for i in uniq_list:
-        num += i
+    for element in set(my_list):
+        number += element
 
-        return (num)
+        return number

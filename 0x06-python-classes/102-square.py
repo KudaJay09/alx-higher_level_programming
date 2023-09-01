@@ -1,23 +1,14 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-class Square:
-=======
 """Define a class square"""
 
 
 class Square:
     """Represents a square"""
->>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8
-    def __init__(self, size):
+    def __init__(self, size=0):
         self.size = size
 
     @property
     def size(self):
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8
         return (self.__size)
 
     @size.setter
@@ -29,17 +20,22 @@ class Square:
         self.__size = value
 
     def area(self):
-
         return (self.__size * self.__size)
 
-    def my_print(self):
+    def __eq__(self, other):
+        return self.area() == other.area()
 
-        for i in range(0, self.__size):
-            [print("#", end="") for j in range(self.__size)]
-            print()
-        if self.__size == 0:
-            print()
-<<<<<<< HEAD
+    def __ne__(self, other):
+        return self.area() != other.area()
 
-=======
->>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8
+    def __lt__(self, other):
+            return self.area() < other.area()
+
+    def __le__(self, other):
+            return self.area() <= other.area()
+
+    def __gt__(self, other):
+            return self.area() > other.area()
+
+    def __ge__(self, other):
+            return self.area() >= other.area()

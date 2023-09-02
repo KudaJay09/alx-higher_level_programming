@@ -1,9 +1,13 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+class Square:
+=======
 """Define a class square"""
 
 
 class Square:
     """Represents a square"""
+>>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
         self.position = position
@@ -37,6 +41,8 @@ class Square:
         return (self.__size * self.__size)
 
     def my_print(self):
+<<<<<<< HEAD
+=======
         if self.__size == 0:
             print()
             return
@@ -46,3 +52,4 @@ class Square:
             [print(" ", end="") for j in range(0, self.__position[0])]
             [print("#", end="") for k in range(0, self.__size)]
             print()
+>>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8

@@ -1,15 +1,23 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+class Square:
+=======
 """Define a class square"""
 
 
 class Square:
     """Represents a square"""
+>>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8
     def __init__(self, size):
         self.size = size
 
     @property
     def size(self):
+<<<<<<< HEAD
+        
+=======
 
+>>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8
         return (self.__size)
 
     @size.setter
@@ -31,3 +39,7 @@ class Square:
             print()
         if self.__size == 0:
             print()
+<<<<<<< HEAD
+
+=======
+>>>>>>> 71884b5a8c7121e44888cd5f389531adfd2591d8

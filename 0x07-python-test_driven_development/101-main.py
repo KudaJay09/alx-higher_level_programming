@@ -1,4 +1,3 @@
-guillaume@ubuntu:~/0x07$ cat 101-main.py
 #!/usr/bin/python3
 lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
 

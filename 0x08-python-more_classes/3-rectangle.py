@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# String representation
 """defines a rectangle class"""
 
 

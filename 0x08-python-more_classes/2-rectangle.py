@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class"""
+# Area and Perimeter
+"""Define a Rectangle class"""
 
 
 class Rectangle:
-    """Represents a rectangle"""
+    """Represent a rectangle"""
 
     def __init__(self, width=0, height=0):
         """Initialize a Rectangle.

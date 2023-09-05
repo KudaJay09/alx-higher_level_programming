@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 # Detect instance addition
 class Rectangle:
-    """Define a rectangle"""
+    """Define a rectangle class"""
 
 
     class Rectangle:
-    """Represents a rectangle."""
+    """Represents a rectangle"""
 
     def __init__(self, width=0, height=0):
         """Initialize new Rectangle.

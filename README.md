@@ -9,4 +9,6 @@
 * 0x06. Python - Classes and Objects
 * 0x07. Python - Test-driven development
 * 0x08. Python - More Classes and Objects
-* 0x09. Python - Everything is object 
+* 0x09. Python - Everything is object
+* 0x0A. Python - Inheritance 
+* 0x0B. Python - Input/Output
